@@ -137,6 +137,9 @@ html[data-mode="dark"] .floormap rect[fill="#a83a1f"]{fill:#3d6a52}html[data-mod
 .fair{display:flex;gap:6px;align-items:center;font-size:14px;margin:6px 0;color:var(--muted)}
 .fair a{color:inherit}
 
+/* 2026-10-15: lazy pictures show a soft dark placeholder in night mode instead of a blank white square while they load */
+:root[data-mode="dark"] img[loading="lazy"]{background-color:#1c2733}
+
 /* ---------- HOME: hero on the paper backdrop, coming-soon strip, shop directory, search, new arrivals, promises */
 .atrium{position:relative}
 .atrium-media{position:relative;height:clamp(420px,70vh,720px);overflow:hidden;background:var(--page2)}
