@@ -453,4 +453,4 @@ main{overflow-x:clip}
 
 /* 2026-10-19 Wingman page + privacy section */
 .prose h3{font:600 20px var(--serif);margin:22px 0 6px}.prose code{font-size:.92em;background:var(--card2);padding:1px 5px;border-radius:3px}
-.wingman-mark{margin:0 0 18px}.wingman-mark img{display:block;width:120px;height:120px;border-radius:18px;border:1px solid var(--rule2)}.wingman-mark .dark{display:none}html[data-mode="dark"] .wingman-mark .light{display:none}html[data-mode="dark"] .wingman-mark .dark{display:block}.desk-fox img{background:transparent;border:0;border-radius:0}
+.wingman-mark{margin:0 0 22px}.wingman-mark img{display:block;width:min(205px,45vw);height:auto;aspect-ratio:1;object-fit:contain;background:transparent;border:0}
